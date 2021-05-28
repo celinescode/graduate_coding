@@ -4,6 +4,7 @@ import pkg from "csv-writer";
 
 const { createArrayCsvWriter } = pkg;
 const csvWriter = createArrayCsvWriter({
+  //uncomment the next line to display headers in the csv
   //header: ["state", "total"],
   path: "solution/out/data.csv",
 });
