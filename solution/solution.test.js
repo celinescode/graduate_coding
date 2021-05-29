@@ -1,0 +1,2 @@
+import { sumByState } from './solution';
+
