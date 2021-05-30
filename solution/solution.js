@@ -9,7 +9,7 @@ const csvWriter = createArrayCsvWriter({
   path: "solution/out/data.csv",
 });
 
-const sumByState = (data) => {
+export const sumByState = (data) => {
   var counter = {
     //I choose to use object rather than other format so it would be easier to increment and make the code cleaner
     ACT: 0,
